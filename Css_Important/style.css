@@ -1,0 +1,12 @@
+#myid {
+    background-color: blue;
+}
+
+.myclass {
+    background-color: gray;
+}
+
+p {
+    /* !important overwrites os estilos anteriores */
+    background-color: red !important;
+}

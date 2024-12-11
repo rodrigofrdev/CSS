@@ -1,0 +1,30 @@
+#div1 {
+  position: absolute;
+  left: 50px;
+  /* 100% em relação ao elemento pai (body) */
+  /* 100px = 50px (desloc à esq) + 50px (desloc à dir) */
+  width: calc(100% - 100px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+}
+
+#innerDiv {
+  /* 50% em relação ao elemento pai (div1) */
+  width: calc(50% - 100px);
+  border: 1px solid red;
+  background-color: yellow;
+  padding: 5px;
+}
+
+#div2 {
+  background-color: yellow;
+  height: 100px;
+  width: max(50%, 300px);
+}
+
+#div3 {
+  background-color: yellow;
+  height: 100px;
+  width: min(50%, 300px);
+}
